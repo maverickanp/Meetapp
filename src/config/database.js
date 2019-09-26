@@ -1,7 +1,7 @@
 module.exports = {
-  dialect: 'mysql',
-  host: '0.0.0.0',
-  username: 'root',
+  dialect: 'postgres',
+  host: 'localhost',
+  username: 'postgres',
   password: 'docker',
   database: 'meetapp',
   define: {
